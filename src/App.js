@@ -5,8 +5,6 @@ import "./App.css";
 import New from "./New";
 import Table from "./Table";
 
-console.log("REACT_APP_API_KEY: ", process.env.REACT_APP_API_KEY);
-
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
